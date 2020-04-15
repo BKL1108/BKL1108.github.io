@@ -1,0 +1,44 @@
+div{
+  margin: 80px 100px 10px;
+  display:flex;
+  height: 500px;
+}
+header{
+  background: rgb(74, 202, 112);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  padding:10px 90px;
+  top: 0;
+  width: 100%;
+}
+
+a{
+  display:block;
+  width: 100px;
+  height: 30px;
+  background: rgb(177, 236, 190);
+  margin: 10px;
+}
+.bigger{
+  width: 150px;
+}
+main{
+  background: rgb(134, 190, 148);
+  flex-grow: 3;
+  margin-left: 100px;
+ 
+ 
+}
+aside{
+  background: rgb(170, 170, 170);
+  flex-grow: 1;
+  height: 500px;
+   margin-right: 100px;
+}
+footer{
+  margin: 0 100px;
+  background: lightgrey;
+  height: 80px;
+}
